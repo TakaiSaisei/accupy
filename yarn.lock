@@ -70,12 +70,35 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@yarnpkg/esbuild-plugin-pnp@npm:^2.0.1":
+  version: 2.0.1
+  resolution: "@yarnpkg/esbuild-plugin-pnp@npm:2.0.1"
+  dependencies:
+    tslib: ^1.13.0
+  peerDependencies:
+    esbuild: ">=0.10.0"
+  checksum: ff081f65e01d5720dc17faf4dee3b055ea81235344b32322e095eec8d8472b36109cc27e6bfd8463933acde00c9bdcab008df662db020dec7bdef25a75dc5aaf
+  languageName: node
+  linkType: hard
+
 "abbrev@npm:1":
   version: 1.1.1
   resolution: "abbrev@npm:1.1.1"
   checksum: a4a97ec07d7ea112c517036882b2ac22f3109b7b19077dc656316d07d308438aac28e4d9746dc4d84bf6b1e75b4a7b0a5f3cb30592419f128ca9a8cee3bcfa17
   languageName: node
   linkType: hard
+
+"accupy@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "accupy@workspace:."
+  dependencies:
+    "@hotwired/stimulus": ^3.0.1
+    "@hotwired/turbo-rails": ^7.1.1
+    "@yarnpkg/esbuild-plugin-pnp": ^2.0.1
+    esbuild: ^0.14.38
+    sass: ^1.51.0
+  languageName: unknown
+  linkType: soft
 
 "agent-base@npm:6, agent-base@npm:^6.0.2":
   version: 6.0.2
@@ -123,17 +146,6 @@ __metadata:
   checksum: 985163db2292fac9e5a1e072bf99f1b5baccf196e4de25a0b0b81865ebddeb3b3eb4480734ef0a2ac8c002845396b91aa89121f5b84f93981a4658164a9ec6e9
   languageName: node
   linkType: hard
-
-"app@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "app@workspace:."
-  dependencies:
-    "@hotwired/stimulus": ^3.0.1
-    "@hotwired/turbo-rails": ^7.1.1
-    esbuild: ^0.14.38
-    sass: ^1.51.0
-  languageName: unknown
-  linkType: soft
 
 "aproba@npm:^1.0.3 || ^2.0.0":
   version: 2.0.0
@@ -1245,6 +1257,13 @@ __metadata:
   dependencies:
     is-number: ^7.0.0
   checksum: f76fa01b3d5be85db6a2a143e24df9f60dd047d151062d0ba3df62953f2f697b16fe5dad9b0ac6191c7efc7b1d9dcaa4b768174b7b29da89d4428e64bc0a20ed
+  languageName: node
+  linkType: hard
+
+"tslib@npm:^1.13.0":
+  version: 1.14.1
+  resolution: "tslib@npm:1.14.1"
+  checksum: dbe628ef87f66691d5d2959b3e41b9ca0045c3ee3c7c7b906cc1e328b39f199bb1ad9e671c39025bd56122ac57dfbf7385a94843b1cc07c60a4db74795829acd
   languageName: node
   linkType: hard
 
